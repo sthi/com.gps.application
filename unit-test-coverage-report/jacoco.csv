@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+com.gps.project,com.city.map,CityController,0,24,0,2,0,7,0,3,0,2
+com.gps.project,com.city.map,CityServiceImpl,0,225,0,36,0,69,0,23,0,5
+com.gps.project,com.city.map,CityErrorHandler,19,0,0,0,6,0,3,0,3,0
+com.gps.project,com.city.map,ReadCitiesFromFile,0,167,0,14,0,39,0,10,0,3
+com.gps.project,com.city.map,CityMapperConfiguration,0,29,0,0,0,6,0,3,0,3
+com.gps.project,com.city.map,Application,0,8,0,0,0,3,0,2,0,2

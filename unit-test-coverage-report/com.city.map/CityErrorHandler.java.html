@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CityErrorHandler.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">com.gps.project</a> &gt; <a href="index.source.html" class="el_package">com.city.map</a> &gt; <span class="el_source">CityErrorHandler.java</span></div><h1>CityErrorHandler.java</h1><pre class="source lang-java linenums">package com.city.map;
+
+import javax.servlet.http.HttpServletResponse;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.springframework.boot.web.servlet.error.ErrorController;
+import org.springframework.web.bind.annotation.GetMapping;
+
+<span class="nc" id="L9">public class CityErrorHandler implements ErrorController {</span>
+
+<span class="nc" id="L11">	private final Log log = LogFactory.getLog(getClass());</span>
+	private static final String PATH = &quot;/error&quot;;
+
+	 /**
+     * Based on the requirement: &quot;If there are no connection between 2 cities it should result in a ’no’ response&quot;
+     *
+     * EXPECTATIONS:
+     *  1) not all exceptions are caused by unexpected input
+     *  2) response code needs to be more specific
+     *  3) error message needs to be more specific
+     *
+     * @param response  current HttpServletResponse object
+     * @return          &quot;no&quot;
+     */
+	@GetMapping(value = PATH)
+	public String handleError(HttpServletResponse response) {
+<span class="nc" id="L27">		response.setStatus(400);</span>
+<span class="nc" id="L28">		log.error(&quot;Error occured while reading&quot;);</span>
+<span class="nc" id="L29">		return &quot;no&quot;;</span>
+	}
+
+	@Override
+	public String getErrorPath() {
+<span class="nc" id="L34">		return PATH;</span>
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

@@ -1,0 +1,58 @@
+2020-09-04 15:33:34.637  INFO 30040 --- [           main] com.city.map.Application                 : Starting Application on DESKTOP-939G7IM with PID 30040 (started by suthi in D:\springboot_ws\com.gps.project)
+2020-09-04 15:33:34.638  INFO 30040 --- [           main] com.city.map.Application                 : No active profile set, falling back to default profiles: default
+2020-09-04 15:33:35.285  INFO 30040 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-04 15:33:35.297  INFO 30040 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-04 15:33:35.298  INFO 30040 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-04 15:33:35.388  INFO 30040 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-04 15:33:35.388  INFO 30040 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 747 ms
+2020-09-04 15:33:35.536  INFO 30040 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-04 15:33:35.559  INFO 30040 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-04 15:33:35.625  INFO 30040 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-04 15:33:35.626  INFO 30040 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-09-04 15:33:35.627  INFO 30040 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-09-04 15:33:35.631  INFO 30040 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-09-04 15:33:35.642  INFO 30040 --- [           main] com.city.map.Application                 : Started Application in 1.034 seconds (JVM running for 5.703)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.166 s - in com.city.map.ApplicationTests
+[INFO] Running com.city.map.CityControllerTest
+2020-09-04 15:33:35.692  INFO 30040 --- [           main] com.city.map.CityController              : Ciy Controller Strated here
+2020-09-04 15:33:35.697  INFO 30040 --- [           main] com.city.map.CityController              : Ciy Controller Strated here
+2020-09-04 15:33:35.697 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : origin is empty
+2020-09-04 15:33:35.700  INFO 30040 --- [           main] com.city.map.CityController              : Ciy Controller Strated here
+2020-09-04 15:33:35.700 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : origin is empty
+2020-09-04 15:33:35.703  INFO 30040 --- [           main] com.city.map.CityController              : Ciy Controller Strated here
+2020-09-04 15:33:35.703 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : origin is null
+2020-09-04 15:33:35.706  INFO 30040 --- [           main] com.city.map.CityController              : Ciy Controller Strated here
+2020-09-04 15:33:35.708  INFO 30040 --- [           main] com.city.map.CityController              : Ciy Controller Strated here
+2020-09-04 15:33:35.711  INFO 30040 --- [           main] com.city.map.CityController              : Ciy Controller Strated here
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.city.map.CityControllerTest
+[INFO] Running com.city.map.CityMapperConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.city.map.CityMapperConfigurationTest
+[INFO] Running com.city.map.CityServiceImplTest
+2020-09-04 15:33:35.720 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : origin is null
+2020-09-04 15:33:35.720 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : origin is empty
+2020-09-04 15:33:35.720 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : destination is null
+2020-09-04 15:33:35.720 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : destination is empty
+2020-09-04 15:33:35.720 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : destination is the same as origin
+2020-09-04 15:33:35.721 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : origin is null
+2020-09-04 15:33:35.721 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : origin is empty
+2020-09-04 15:33:35.721 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : destination is null
+2020-09-04 15:33:35.721 ERROR 30040 --- [           main] com.city.map.CityServiceImpl             : destination is empty
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.city.map.CityServiceImplTest
+[INFO] Running com.city.map.ReadCitiesFromFileTest
+2020-09-04 15:33:35.723 ERROR 30040 --- [           main] com.city.map.CityMapperConfiguration     : line 6: format invalid -
+2020-09-04 15:33:35.723 ERROR 30040 --- [           main] com.city.map.CityMapperConfiguration     : line 7: format invalid -e
+2020-09-04 15:33:35.723 ERROR 30040 --- [           main] com.city.map.CityMapperConfiguration     : line 8: format invalid, the first string is empty - , f
+2020-09-04 15:33:35.723 ERROR 30040 --- [           main] com.city.map.CityMapperConfiguration     : line 9: format invalid -f,
+2020-09-04 15:33:35.723 ERROR 30040 --- [           main] com.city.map.CityMapperConfiguration     : line 10: format invalid, the second string is empty - f,   
+2020-09-04 15:33:35.723 ERROR 30040 --- [           main] com.city.map.CityMapperConfiguration     : line 11: format invalid -
+2020-09-04 15:33:35.723 ERROR 30040 --- [           main] com.city.map.CityMapperConfiguration     : line 12: format invalid -
+2020-09-04 15:33:35.724 ERROR 30040 --- [           main] com.city.map.CityMapperConfiguration     : not-existed.txt (The system cannot find the file specified) filepath = D:\springboot_ws\com.gps.project\not-existed.txt
+2020-09-04 15:33:35.724 ERROR 30040 --- [           main] com.city.map.CityMapperConfiguration     : failed to read any data from D:\springboot_ws\com.gps.project\.\test\empty.txt
+2020-09-04 15:33:36.001 ERROR 30040 --- [           main] com.city.map.CityMapperConfiguration     : failed to read any data from D:\springboot_ws\com.gps.project\test\city.txt
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.271 s - in com.city.map.ReadCitiesFromFileTest
+2020-09-04 15:33:36.010  INFO 30040 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-04 15:33:36.346  INFO 30040 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
